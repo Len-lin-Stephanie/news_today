@@ -1,3 +1,7 @@
+:root{
+    --colorBrown: #e08b6c;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -33,4 +37,63 @@ header{
 .social-icons i{
     margin: 0 7px;
     cursor: pointer;
+}
+
+.nav{
+    background: black;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.nav ul{
+    margin: 20px 0 0 0;
+}
+
+.navbar-nav li{
+    padding: 10px 20px;
+}
+
+.navbar-nav li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navbar-nav li a:hover{
+    color: var(--colorBrown);
+}
+
+.breaking-news-section{
+    padding: 0 30px 0 60px;
+    display: flex;
+    height: 30px;
+}
+
+#btext{
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--colorBrown);
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.breaking-news:hover, .social-icons i:hover{
+    color: var(--colorBrown);
+    cursor: pointer; 
+}
+
+.breaking-news{
+    padding: 0 30px;
+    color: #fff;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.bntime{
+    display: inline-block;
+    color: rgba(255,255,255,0.5);
+    padding: 0 10px;
+    font-size: 12px;
+
 }
